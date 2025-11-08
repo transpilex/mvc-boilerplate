@@ -6,7 +6,7 @@ namespace PROJECT_NAME.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("~/Views/Index.cshtml");
         }
     }
 }
